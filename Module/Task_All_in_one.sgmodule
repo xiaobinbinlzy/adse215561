@@ -113,8 +113,5 @@ CSDN = type=cron,cronexp=0 2 0 * * *,script-path=https://raw.githubusercontent.c
 # > 微信小程序-来客有礼 (By @Macsuny)
 # 微信搜索’来客有礼‘小程序,登陆京东账号，点击’领京豆->翻牌‘
 来客有礼 = type=cron,cronexp=30 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,script-update-interval=0
-
+#打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
 活动抽奖 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js
-# > 微信小程序-喜马拉雅 (By @makexp)
-# 微信小程序 - 喜马拉雅 - 我的： 签到 “ 获取 Cookie
-微信小程序-喜马拉雅 = type=cron,cronexp=5 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js

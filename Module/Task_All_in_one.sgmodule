@@ -15,6 +15,10 @@
 #TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js,type=cron,cronexp=0 0 * * * *
 # > 一言
 一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=0 0 8 * * *
+# > 每日.每周天气
+每日+每周天气 = script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/test-js/weather_pro.js,type=cron,cronexp=0 0 8-20/4 * * *
+# > 每日.48小时天气
+每日+48小时天气 = script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/test-js/weather_pro2.js,type=cron,cronexp=0 0 8-20/4 * * *
 # > 每日一句+ 蚂蚁森林收能量
 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
 # > 倒数日

@@ -1,0 +1,10 @@
+#!name=Cookie - maodehui
+#!desc=该模块适dlercloud签到
+#!system=ios
+
+[Script]
+# dlercloud签到
+dlercloud = max-size=0,script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/test-js/dlercloud.js,type=http-request,pattern=https:\/\/dleris\.best\/user
+
+[MITM]
+hostname = dleris.best

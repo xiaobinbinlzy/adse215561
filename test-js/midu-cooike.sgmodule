@@ -7,4 +7,4 @@ http-request ^https:\/\/apiwz\.midukanshu\.com script-path=https://raw.githubuse
 
 
 [MITM]
-apiwz.midukanshu.com
+hostname = apiwz.midukanshu.com

@@ -1,5 +1,7 @@
 #!name=腾讯新闻TASK签到任务
 #!desc=腾讯新闻TASK签到任务
 #!system=ios
+
 [Script]
+
 腾讯新闻TASK = type=cron,cronexp=0 */5 8-22/1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js,script-update-interval=0

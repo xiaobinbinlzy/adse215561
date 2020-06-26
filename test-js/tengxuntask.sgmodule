@@ -4,4 +4,4 @@
 
 [Script]
 
-腾讯新闻TASK = type=cron,cronexp=0 */5 8-22/1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js,script-update-interval=0
+腾讯新闻TASK = type=cron,cronexp=0 */5 1-22/1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js,script-update-interval=0

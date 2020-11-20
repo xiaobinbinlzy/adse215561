@@ -14,8 +14,6 @@
 # > 每日.48小时天气
 每日+48小时天气 = script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/test-js/weather_pro2.js,type=cron,cronexp=0 0 8-20/4 * * *
 # > 倒数日
-# 需要自己修改节日
-倒数日 = script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/test-js/daysmatter.js,tag=倒数日,type=cron,cronexp=0 0 8 * * *
 # 疫情查看 (By @Dachaw)
 # 需要自己改城市
 疫情查看 = script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/Module/nCoV.js,type=cron,cronexp=0 0 8 * * *

@@ -7,22 +7,6 @@
 
 [Script]
 
-# > 一言
-一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=0 0 8 * * *
-# > 每日.每周天气
-每日+每周天气 = script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/test-js/weather_pro.js,type=cron,cronexp=0 0 8-20/4 * * *
-# > 每日.48小时天气
-每日+48小时天气 = script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/test-js/weather_pro2.js,type=cron,cronexp=0 0 8-20/4 * * *
-# > 倒数日
-# 疫情查看 (By @Dachaw)
-# 需要自己改城市
-疫情查看 = script-path=https://raw.githubusercontent.com/xiaobinbinlzy/adse215561/master/Module/nCoV.js,type=cron,cronexp=0 0 8 * * *
-
-# 签到脚本
-
-#  NobyDa
-# > 京东
-京东 = type=cron,cronexp=0 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
 
 # bilibili
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
